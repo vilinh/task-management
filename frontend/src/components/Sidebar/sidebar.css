@@ -61,6 +61,7 @@
 }
 
 .menu-item:first-child {
+    background-image: none;
     background-color: var(--accent-purple);
     color: white;
 }
