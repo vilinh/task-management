@@ -1,0 +1,51 @@
+.homeContainer {
+    display: flex;
+    background-color: var(--light-lavendar);
+}
+
+.sideBar {
+    flex: 1;
+    filter: drop-shadow(4px 10px 4px #f3ecf4);
+}
+
+.dashBoard {
+    flex: 4;
+    height: 100vh;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.dashBoard>h1 {
+    font-size: 30px;
+}
+
+.dashBoard>h2 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.tab-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    color: gray;
+    padding: 0px 10px 20px 10px;
+    cursor: pointer;
+}
+
+.tab-btn:first-child {
+    border-bottom: 3px solid var(--accent-purple);
+    color: black;
+}
+
+.dashboard-left {
+    margin-top: 10px;
+    flex: 4;
+}
+
+.dashboard-right {
+    flex: 1;
+    padding-top: 20px;
+}

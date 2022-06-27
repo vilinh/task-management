@@ -1,0 +1,12 @@
+* {
+  --light-lavendar: #f5f1f6;
+  --white: #fff;
+  --accent-purple: #a091d5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
