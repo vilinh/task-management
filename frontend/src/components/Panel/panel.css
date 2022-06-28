@@ -16,11 +16,12 @@
     background-image: linear-gradient(rgb(229, 229, 229, 0.8),rgb(229, 229, 229, 0.8));
     background-size: 0 100%;
     background-repeat: no-repeat;
-    transition: .2s;
+    transition: .2s ease-in-out;
     border-bottom: 3px solid transparent;
 }
 
-.tab-btn:first-child {
+.tab-btn.active{
+    transition: .3s ease-in;
     border-bottom: 3px solid var(--accent-purple);
     color: black;
 }
@@ -28,6 +29,7 @@
 .tab-btn:hover {
     background-size: 100% 100%;
 }
+
 .panel-top {
     flex: 1;
 }
