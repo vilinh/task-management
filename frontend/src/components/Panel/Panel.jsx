@@ -18,7 +18,7 @@ export const Panel = () => {
           }}
           className={`tab-btn` + (one ? " active" : "")}
         >
-          Weekly
+          <span className="option">Weekly</span>
         </button>
         <button
           id="two"
@@ -29,7 +29,7 @@ export const Panel = () => {
           }}
           className={`tab-btn` + (two ? " active" : "")}
         >
-          Monthly
+          <span className="option">Monthly</span>
         </button>
         <button
           id="three"
@@ -40,8 +40,9 @@ export const Panel = () => {
           }}
           className={`tab-btn` + (three ? " active" : "")}
         >
-          Last year
+          <span className="option">Last year</span>
         </button>
+        {/* <span className="underline"></span> */}
       </div>
       <div className="activity">hello</div>
     </div>
