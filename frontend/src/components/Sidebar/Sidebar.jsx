@@ -21,7 +21,7 @@ export const Sidebar = () => {
         <h4 className="title">Sr Designer</h4>
       </div>
       <div className="menu">
-        <span className="menu-item">
+        <span className="menu-item active">
           <FontAwesomeIcon className="icon" icon={faInbox} />
           Dashboard
         </span>

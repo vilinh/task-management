@@ -7,6 +7,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -41,7 +43,7 @@
 
 .menu-item {
     color: gray;
-    padding: 15px 0px 15px 40px;
+    padding: 15px 0px 15px 20px;
     border-radius: 40px;
     font-weight: 500;
     cursor: pointer;
@@ -59,8 +61,21 @@
     margin-right: 20px;
 }
 
-.menu-item:first-child {
+.menu-item.active {
     background-image: none;
     background-color: var(--accent-purple);
     color: white;
 }
+
+@media only screen and (max-width: 1024px) {
+    .sideBar {
+        font-size: .8rem;
+    }
+    .menu-item {
+        padding: 10px 10px 10px 20px;
+    }
+
+    .icon {
+        margin-right: 10px;
+    }
+  }
