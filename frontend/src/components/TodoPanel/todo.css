@@ -1,0 +1,16 @@
+.todo-panel {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 25px;
+    filter: drop-shadow(6px 10px 20px #e1d8f1);
+}
+
+.checkmark {
+    margin-right: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.checkmark:hover {
+    color: gray;
+}
