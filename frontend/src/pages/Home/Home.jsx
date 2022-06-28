@@ -1,5 +1,7 @@
 import "./home.css";
 import { Sidebar } from "../../components/Sidebar/Sidebar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 
 export const Home = () => {
   return (
@@ -34,8 +36,14 @@ export const Home = () => {
         <div className="dashboard-right">
           <h2>Todo</h2>
           <div className="todo-items">
-            <div className="todo-panel">todo</div>
-            <div className="todo-panel">todo</div>
+            <div className="todo-panel">
+            <FontAwesomeIcon className="checkmark" icon={faCircleCheck} />
+              todo
+            </div>
+            <div className="todo-panel">
+              <FontAwesomeIcon className="checkmark" icon={faCircleCheck} />
+              todo
+            </div>
           </div>
         </div>
       </div>
