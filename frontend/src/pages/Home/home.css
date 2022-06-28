@@ -50,7 +50,28 @@
     flex: 4;
 }
 
+.panels {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.panel-top {
+    flex: 1;
+}
+
+.panel-bottom {
+    flex: 1;
+}
+
 .dashboard-right {
     flex: 1;
     padding-top: 20px;
+}
+
+.activity {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 40px 40px;
 }
