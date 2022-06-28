@@ -33,6 +33,10 @@ export const Home = () => {
         </div>
         <div className="dashboard-right">
           <h2>Todo</h2>
+          <div className="todo-items">
+            <div className="todo-panel">todo</div>
+            <div className="todo-panel">todo</div>
+          </div>
         </div>
       </div>
     </div>
