@@ -1,7 +1,12 @@
 .homeContainer {
     display: flex;
+    flex-direction: column;
+}
+
+.homeWrapper {
+    display: flex;
     background-color: var(--light-lavendar);
-    overflow: hidden;
+    overflow: auto;
 }
 
 .sideBar {
@@ -73,9 +78,8 @@
     }
 
     .dashboard-right {
-        padding: 0;
+        padding: 20px 0px;
     }
-    .dashboard-left {
-    }
+
 }
 
